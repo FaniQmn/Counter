@@ -1,7 +1,25 @@
-.minus {
-  background-color: green;
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+.counter {
+  font-size: 30px;
+  text-align: center;
+}
+
+.moins {
+  background-color: red;
+  border-radius: 100%;
+  width: 80px;
 }
 
 .plus {
-  background-color: red;
+  background-color: green;
+  border-radius: 100%;
+  width: 80px;
+}
+
+button {
+  margin: 0px 50px 0px 50px;
 }
